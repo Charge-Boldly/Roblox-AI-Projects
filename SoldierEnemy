@@ -1,0 +1,5 @@
+#This code assigns the SoldierEnemy tag to the NPC, making it an enemy that will attack other characters.
+local CollectionService = game:GetService("CollectionService")
+local npc = script.Parent
+
+CollectionService:AddTag(npc, "SoldierEnemy")
